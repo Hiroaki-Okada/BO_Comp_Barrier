@@ -4,7 +4,7 @@
 ## Overview
 Source code to reproduce [the work's preprint](https://chemrxiv.org/engage/chemrxiv/article-details/635e6609ac45c788bb9e44d7).
 
-## Installation
+## Environment setup
 (0) Create anaconda environment
 ```
 conda create --name bo python=3.7.5
