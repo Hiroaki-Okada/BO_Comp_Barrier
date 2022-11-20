@@ -99,7 +99,6 @@ def benchmark(ini_seed=0, loop_num=200, max_trial=100, batch_size=5, finish_thre
         Convergence criteria for Bayesian optimization.
         Value of the 10th smallest barrier in the Claisen barrier dataset.
     """
-
     success_rate = bo_opt(ini_seed, loop_num, max_trial, batch_size, finish_thresh)
     visualize(success_rate, max_trial, batch_size)
 
