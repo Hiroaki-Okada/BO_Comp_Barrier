@@ -36,7 +36,7 @@ Main steps to reproduce:
                    batch_size=5, batch_magnification=1, second_opt=True,
                    target_scaling='standard', deviation=['normal', 0, 5])
   ```
-  (2) Run `benchmark.py`.  The program will run in the foreground, and the performance benchmarking process will be output to stdout one after another. At the end, a summary of the performance (list of success rates) is displayed.  
+  (2) Run `benchmark.py`.  The program will run in the foreground, and the performance benchmarking process will be output to stdout one after another. At the end, a summary of the performance (list of success rate) is displayed.  
   If you want to run the program in the background, use the `nohup` command, for example.  
   ```
   nohup python benchmark.py > benchmark.log &
